@@ -15,7 +15,7 @@ function ProfileBar({sideBarActive, setSideBarActive}) {
 
   const logOutHandler = () => {
     logOut();
-    location.href = '/';
+    navigator('/')
   }
 
   return (
