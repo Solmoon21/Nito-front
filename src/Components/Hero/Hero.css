@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a79ee1;
+  overflow: hidden;
+}
+
+.hero-text {
+  max-width: 50%;
+  margin: 3rem;
+  padding: 1rem;
+  border: 2px solid cornsilk;
+}

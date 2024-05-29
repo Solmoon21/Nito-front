@@ -1,0 +1,22 @@
+.grid-list {
+  box-sizing: border-box;
+  width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-height: 100vh;
+  gap: 1rem;
+  background-color: #ffcb69;
+  overflow: scroll;
+}
+
+.grid-list::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 320px) {
+  .grid-list {
+    grid-template-columns: 1fr;
+  }
+}

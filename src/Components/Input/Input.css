@@ -1,0 +1,77 @@
+.input-radio {
+  display: none;
+}
+
+.label-radio {
+  position: relative;
+  margin-left: 1.5rem;
+}
+
+.label-radio::before {
+  content: "";
+  position: absolute;
+  transform: translate(-120%);
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: #fff;
+}
+
+.input-radio:checked + .label-radio::before {
+  background-color: #004cff;
+  box-shadow: inset 0 0 0 0.15rem #fff;
+}
+
+.input-text {
+  padding: 0.2rem;
+  width: 15rem;
+  max-width: 40rem;
+  flex-grow: 1;
+  border: none;
+  border-bottom: #000 2px solid;
+}
+
+.input-price {
+  text-align: right;
+  min-width: 2rem;
+  max-width: 4rem;
+}
+
+.ammount-modifier {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ammount-control {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  max-width: 100px;
+}
+
+.btn-modifier {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.ammount-counter {
+  font-size: 1.25rem;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.input-field-label {
+  font-weight: 600;
+}
+
+.input-text {
+  padding: 0.5rem;
+}

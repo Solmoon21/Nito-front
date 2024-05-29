@@ -1,0 +1,36 @@
+.item {
+  display: block;
+  padding: 0.5rem;
+  color: #000;
+  text-decoration: none;
+  border: 1px var(--border-color) solid;
+  border-radius: 10px;
+}
+
+.item-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item-description {
+  position: relative;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 550;
+  gap: 1rem;
+}
+
+.item-actions-favorite {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.btn-add-to-cart {
+  max-width: 80%;
+  margin: 0 auto;
+}

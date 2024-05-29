@@ -1,0 +1,13 @@
+.section-subscribe {
+  margin: 0 auto;
+}
+
+.subscribe-title {
+  text-align: left;
+}
+
+.newsletter {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}

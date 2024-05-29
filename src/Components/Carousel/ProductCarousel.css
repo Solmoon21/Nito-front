@@ -1,0 +1,12 @@
+.custom-carousel {
+  user-select: none;
+  /* height: 200px; */
+  background: none;
+  margin: 0 auto;
+}
+
+.react-multi-carousel-track {
+  display: flex;
+  padding: 1rem 0.5rem;
+  /* gap: 1rem; */
+}

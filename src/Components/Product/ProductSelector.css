@@ -1,0 +1,15 @@
+.product-selector {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.product-selector-calculation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-add-to-cartb {
+  margin: 0;
+}
